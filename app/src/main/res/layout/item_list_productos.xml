@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="15dp">
+
+    <ImageView
+        android:id="@+id/imageProducto_itemListProducto"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:paddingTop= "15dp"
+        android:paddingHorizontal="10dp"
+        android:contentDescription="@string/imgen_descripcion"
+        app:srcCompat="@drawable/producto_imagen"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre_producto_itemListProducto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/producto"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/precio_producto_itemsListProducto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/precio"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="5dp"
+            android:textColor="#0000ff"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

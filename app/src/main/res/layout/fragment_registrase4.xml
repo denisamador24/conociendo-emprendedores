@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.registrarse.FragmentRegistrarse4">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@+id/fragment_registrarse_imageCrearPerfil"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/imgen_descripcion"
+        android:src="@drawable/agregar_imagen"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/elegir_imagen"/>
+
+        <EditText
+            android:id="@+id/editText_nombre_fragmentgRegistrase"
+            android:hint="@string/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:maxLength="40"
+            android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/fragment_registrarse_editTextOficio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Cual es tu labor de emprendedor"
+        android:inputType="textPersonName"
+        android:maxLength="30"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.detallesusuarios.InformacionUsuariosFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView_Perfil_informacionUsuarioFragmnet"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/icono_perfil"/>
+
+                 <TextView
+                     android:id="@+id/textView_Nombre_informacionUsuarioFragmnet"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:text="@string/nombre"
+                     android:layout_marginBottom="6dp"
+                     android:layout_marginHorizontal="5dp"
+                     android:textStyle="italic|bold"
+                     android:textColor="@color/texto_negro"
+                     android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono"
+                    android:textColor="@color/texto_negro"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/textView_Telefono_informacionUsuarioFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/telefono"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/texto_negro"/>
+
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/texto_negro"
+                    android:textSize="14sp"
+                    android:text="@string/oficio"/>
+
+                <TextView
+                    android:id="@+id/textView_Oficio_informacionUsuarioFragmen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oficio"
+                    android:textColor="@color/texto_negro"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion"
+                    android:textColor="@color/texto_negro"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/textView_Direccion_informacionUsuarioFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/direccion"
+                    android:textColor="@color/texto_negro"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

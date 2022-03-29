@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.mi_perfil.MiPerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/texto_negro"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:text="Aun no estas registrado, inicia sesion o crea una nueva cuenta" />
+
+        <EditText
+            android:id="@+id/editTextIniciarSesionUsername"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="center"
+            android:hint="@string/nombreusuario"
+            android:inputType="textPersonName"
+            android:textColor="@color/texto_negro"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextIniciarSesionPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            android:hint="@string/contrasena"/>
+
+        <Button
+            android:id="@+id/ButtonIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#0000ff"
+            android:text="Iniciar sesion"
+            android:textColor="@color/texto_blanco" />
+
+        <Button
+            android:id="@+id/ButtonIniciarSesionCrearCuenta"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Crear nueva cuenta"
+            android:background="#0000ff"
+            android:textColor="@color/texto_blanco"
+            android:layout_marginHorizontal="15dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/FragmentInicio">
+
+    <fragment
+        android:id="@+id/FragmentInicio"
+        android:name="com.example.conociendoemprendedores.fragments.inicio.HomeFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_MiPerfil"
+        android:name="com.example.conociendoemprendedores.fragments.mi_perfil.MiPerfilFragment"
+        android:label="@string/menu_mi_perfil"
+        tools:layout="@layout/fragment_mi_perfil" />
+
+    <fragment
+        android:id="@+id/nav_AcercaDe"
+        android:name="com.example.conociendoemprendedores.fragments.informacion.FragmentInformacion"
+        android:label="@string/menu_acerda_de"
+        tools:layout="@layout/fragment_acerca_de" />
+</navigation>

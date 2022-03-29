@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Conociendo Emprendedores</string>
+
+    <string name="servidor1">https://conociendo-emprendores2.000webhostapp.com</string>
+    <string name="servidorO">192.168.43.12/bd_ce/web_service</string>
+
+
+    <string name="nombre">Nombre Apellido</string>
+    <string name="oficio">Oficio: </string>
+    <string name="ubicacion">Cormarca:</string>
+    <string name="imgen_descripcion">Images de perfil de inicio</string>
+    <string name="telefono">Telefono: </string>
+    <string name="direccion">Dirección: </string>
+    <string name="registarse">Registrase</string>
+    <string name="buscar">buscar</string>
+
+    <string name="siguiente">Siguiente</string>
+    <string name="telefono2">Telefono</string>
+    <string name="direccion2">Dirección</string>
+
+    <string name="elegir_imagen">Elige una Imagen(opcional)</string>
+    <string name="escribe_user">Crear un nombre de usuario y contraseña</string>
+    <string name="nombreusuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+
+    <string name="producto">Producto</string>
+    <string name="precio">Precio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_inicio">ActivityInicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Conociendo Emprendedores</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_mi_perfil">Mi Perfil</string>
+    <string name="menu_acerda_de">Acerca de la App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="productos">Mi productos</string>
+    <string name="comaraca">Comaraca:</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="agregar_productos">Agregar Productos</string>
+
+</resources>
